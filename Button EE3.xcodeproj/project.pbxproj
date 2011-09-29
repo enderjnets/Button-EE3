@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4EE5EEA1433ED3B00BBC6AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EE91433ED3B00BBC6AB /* UIKit.framework */; };
+		B4EE5EEC1433ED3B00BBC6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EEB1433ED3B00BBC6AB /* Foundation.framework */; };
+		B4EE5EEE1433ED3B00BBC6AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EED1433ED3B00BBC6AB /* CoreGraphics.framework */; };
+		B4EE5EF41433ED3B00BBC6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5EF21433ED3B00BBC6AB /* InfoPlist.strings */; };
+		B4EE5EF61433ED3B00BBC6AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EE5EF51433ED3B00BBC6AB /* main.m */; };
+		B4EE5EFA1433ED3B00BBC6AB /* Button_EE3AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EE5EF91433ED3B00BBC6AB /* Button_EE3AppDelegate.m */; };
+		B4EE5EFD1433ED3B00BBC6AB /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5EFB1433ED3B00BBC6AB /* MainWindow.xib */; };
+		B4EE5F001433ED3B00BBC6AB /* Button_EE3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EE5EFF1433ED3B00BBC6AB /* Button_EE3ViewController.m */; };
+		B4EE5F031433ED3B00BBC6AB /* Button_EE3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F011433ED3B00BBC6AB /* Button_EE3ViewController.xib */; };
+		B4EE5F0B1433ED3B00BBC6AB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5F0A1433ED3B00BBC6AB /* SenTestingKit.framework */; };
+		B4EE5F0C1433ED3B00BBC6AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EE91433ED3B00BBC6AB /* UIKit.framework */; };
+		B4EE5F0D1433ED3B00BBC6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EEB1433ED3B00BBC6AB /* Foundation.framework */; };
+		B4EE5F0E1433ED3B00BBC6AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4EE5EED1433ED3B00BBC6AB /* CoreGraphics.framework */; };
+		B4EE5F161433ED3B00BBC6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F141433ED3B00BBC6AB /* InfoPlist.strings */; };
+		B4EE5F181433ED3B00BBC6AB /* Button_EE3Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F171433ED3B00BBC6AB /* Button_EE3Tests.h */; };
+		B4EE5F1A1433ED3B00BBC6AB /* Button_EE3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EE5F191433ED3B00BBC6AB /* Button_EE3Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B4EE5F0F1433ED3B00BBC6AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B4EE5EDC1433ED3B00BBC6AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4EE5EE41433ED3B00BBC6AB;
+			remoteInfo = "Button EE3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B4EE5EE51433ED3B00BBC6AB /* Button EE3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button EE3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EE5EE91433ED3B00BBC6AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4EE5EEB1433ED3B00BBC6AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4EE5EED1433ED3B00BBC6AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4EE5EF11433ED3B00BBC6AB /* Button EE3-Info.plist */ = {isa = PBXFileReference; path = "Button EE3-Info.plist"; sourceTree = "<group>"; };
+		B4EE5EF31433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4EE5EF51433ED3B00BBC6AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4EE5EF71433ED3B00BBC6AB /* Button EE3-Prefix.pch */ = {isa = PBXFileReference; path = "Button EE3-Prefix.pch"; sourceTree = "<group>"; };
+		B4EE5EF81433ED3B00BBC6AB /* Button_EE3AppDelegate.h */ = {isa = PBXFileReference; path = Button_EE3AppDelegate.h; sourceTree = "<group>"; };
+		B4EE5EF91433ED3B00BBC6AB /* Button_EE3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3AppDelegate.m; sourceTree = "<group>"; };
+		B4EE5EFC1433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B4EE5EFE1433ED3B00BBC6AB /* Button_EE3ViewController.h */ = {isa = PBXFileReference; path = Button_EE3ViewController.h; sourceTree = "<group>"; };
+		B4EE5EFF1433ED3B00BBC6AB /* Button_EE3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3ViewController.m; sourceTree = "<group>"; };
+		B4EE5F021433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Button_EE3ViewController.xib; sourceTree = "<group>"; };
+		B4EE5F091433ED3B00BBC6AB /* Button EE3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button EE3Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EE5F0A1433ED3B00BBC6AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B4EE5F131433ED3B00BBC6AB /* Button EE3Tests-Info.plist */ = {isa = PBXFileReference; path = "Button EE3Tests-Info.plist"; sourceTree = "<group>"; };
+		B4EE5F151433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B4EE5F171433ED3B00BBC6AB /* Button_EE3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_EE3Tests.h; sourceTree = "<group>"; };
+		B4EE5F191433ED3B00BBC6AB /* Button_EE3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4EE5EE21433ED3B00BBC6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5EEA1433ED3B00BBC6AB /* UIKit.framework in Frameworks */,
+				B4EE5EEC1433ED3B00BBC6AB /* Foundation.framework in Frameworks */,
+				B4EE5EEE1433ED3B00BBC6AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EE5F051433ED3B00BBC6AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5F0B1433ED3B00BBC6AB /* SenTestingKit.framework in Frameworks */,
+				B4EE5F0C1433ED3B00BBC6AB /* UIKit.framework in Frameworks */,
+				B4EE5F0D1433ED3B00BBC6AB /* Foundation.framework in Frameworks */,
+				B4EE5F0E1433ED3B00BBC6AB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4EE5EDA1433ED3B00BBC6AB = {
+			isa = PBXGroup;
+			children = (
+				B4EE5EEF1433ED3B00BBC6AB /* Button EE3 */,
+				B4EE5F111433ED3B00BBC6AB /* Button EE3Tests */,
+				B4EE5EE81433ED3B00BBC6AB /* Frameworks */,
+				B4EE5EE61433ED3B00BBC6AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4EE5EE61433ED3B00BBC6AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5EE51433ED3B00BBC6AB /* Button EE3.app */,
+				B4EE5F091433ED3B00BBC6AB /* Button EE3Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4EE5EE81433ED3B00BBC6AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5EE91433ED3B00BBC6AB /* UIKit.framework */,
+				B4EE5EEB1433ED3B00BBC6AB /* Foundation.framework */,
+				B4EE5EED1433ED3B00BBC6AB /* CoreGraphics.framework */,
+				B4EE5F0A1433ED3B00BBC6AB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4EE5EEF1433ED3B00BBC6AB /* Button EE3 */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5EF81433ED3B00BBC6AB /* Button_EE3AppDelegate.h */,
+				B4EE5EF91433ED3B00BBC6AB /* Button_EE3AppDelegate.m */,
+				B4EE5EFB1433ED3B00BBC6AB /* MainWindow.xib */,
+				B4EE5EFE1433ED3B00BBC6AB /* Button_EE3ViewController.h */,
+				B4EE5EFF1433ED3B00BBC6AB /* Button_EE3ViewController.m */,
+				B4EE5F011433ED3B00BBC6AB /* Button_EE3ViewController.xib */,
+				B4EE5EF01433ED3B00BBC6AB /* Supporting Files */,
+			);
+			path = "Button EE3";
+			sourceTree = "<group>";
+		};
+		B4EE5EF01433ED3B00BBC6AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5EF11433ED3B00BBC6AB /* Button EE3-Info.plist */,
+				B4EE5EF21433ED3B00BBC6AB /* InfoPlist.strings */,
+				B4EE5EF51433ED3B00BBC6AB /* main.m */,
+				B4EE5EF71433ED3B00BBC6AB /* Button EE3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4EE5F111433ED3B00BBC6AB /* Button EE3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5F171433ED3B00BBC6AB /* Button_EE3Tests.h */,
+				B4EE5F191433ED3B00BBC6AB /* Button_EE3Tests.m */,
+				B4EE5F121433ED3B00BBC6AB /* Supporting Files */,
+			);
+			path = "Button EE3Tests";
+			sourceTree = "<group>";
+		};
+		B4EE5F121433ED3B00BBC6AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5F131433ED3B00BBC6AB /* Button EE3Tests-Info.plist */,
+				B4EE5F141433ED3B00BBC6AB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4EE5EE41433ED3B00BBC6AB /* Button EE3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EE5F1D1433ED3B00BBC6AB /* Build configuration list for PBXNativeTarget "Button EE3" */;
+			buildPhases = (
+				B4EE5EE11433ED3B00BBC6AB /* Sources */,
+				B4EE5EE21433ED3B00BBC6AB /* Frameworks */,
+				B4EE5EE31433ED3B00BBC6AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Button EE3";
+			productName = "Button EE3";
+			productReference = B4EE5EE51433ED3B00BBC6AB /* Button EE3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B4EE5F081433ED3B00BBC6AB /* Button EE3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4EE5F201433ED3C00BBC6AB /* Build configuration list for PBXNativeTarget "Button EE3Tests" */;
+			buildPhases = (
+				B4EE5F041433ED3B00BBC6AB /* Sources */,
+				B4EE5F051433ED3B00BBC6AB /* Frameworks */,
+				B4EE5F061433ED3B00BBC6AB /* Resources */,
+				B4EE5F071433ED3B00BBC6AB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4EE5F101433ED3B00BBC6AB /* PBXTargetDependency */,
+			);
+			name = "Button EE3Tests";
+			productName = "Button EE3Tests";
+			productReference = B4EE5F091433ED3B00BBC6AB /* Button EE3Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4EE5EDC1433ED3B00BBC6AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Omcorp;
+			};
+			buildConfigurationList = B4EE5EDF1433ED3B00BBC6AB /* Build configuration list for PBXProject "Button EE3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B4EE5EDA1433ED3B00BBC6AB;
+			productRefGroup = B4EE5EE61433ED3B00BBC6AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4EE5EE41433ED3B00BBC6AB /* Button EE3 */,
+				B4EE5F081433ED3B00BBC6AB /* Button EE3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4EE5EE31433ED3B00BBC6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5EF41433ED3B00BBC6AB /* InfoPlist.strings in Resources */,
+				B4EE5EFD1433ED3B00BBC6AB /* MainWindow.xib in Resources */,
+				B4EE5F031433ED3B00BBC6AB /* Button_EE3ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EE5F061433ED3B00BBC6AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5F161433ED3B00BBC6AB /* InfoPlist.strings in Resources */,
+				B4EE5F181433ED3B00BBC6AB /* Button_EE3Tests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4EE5F071433ED3B00BBC6AB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4EE5EE11433ED3B00BBC6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5EF61433ED3B00BBC6AB /* main.m in Sources */,
+				B4EE5EFA1433ED3B00BBC6AB /* Button_EE3AppDelegate.m in Sources */,
+				B4EE5F001433ED3B00BBC6AB /* Button_EE3ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EE5F041433ED3B00BBC6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EE5F1A1433ED3B00BBC6AB /* Button_EE3Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4EE5F101433ED3B00BBC6AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B4EE5EE41433ED3B00BBC6AB /* Button EE3 */;
+			targetProxy = B4EE5F0F1433ED3B00BBC6AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B4EE5EF21433ED3B00BBC6AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EE5EF31433ED3B00BBC6AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B4EE5EFB1433ED3B00BBC6AB /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EE5EFC1433ED3B00BBC6AB /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B4EE5F011433ED3B00BBC6AB /* Button_EE3ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EE5F021433ED3B00BBC6AB /* en */,
+			);
+			name = Button_EE3ViewController.xib;
+			sourceTree = "<group>";
+		};
+		B4EE5F141433ED3B00BBC6AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B4EE5F151433ED3B00BBC6AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B4EE5F1B1433ED3B00BBC6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4EE5F1C1433ED3B00BBC6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4EE5F1E1433ED3B00BBC6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Button EE3/Button EE3-Prefix.pch";
+				INFOPLIST_FILE = "Button EE3/Button EE3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4EE5F1F1433ED3B00BBC6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Button EE3/Button EE3-Prefix.pch";
+				INFOPLIST_FILE = "Button EE3/Button EE3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B4EE5F211433ED3C00BBC6AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Button EE3.app/Button EE3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Button EE3/Button EE3-Prefix.pch";
+				INFOPLIST_FILE = "Button EE3Tests/Button EE3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B4EE5F221433ED3C00BBC6AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Button EE3.app/Button EE3";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Button EE3/Button EE3-Prefix.pch";
+				INFOPLIST_FILE = "Button EE3Tests/Button EE3Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4EE5EDF1433ED3B00BBC6AB /* Build configuration list for PBXProject "Button EE3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EE5F1B1433ED3B00BBC6AB /* Debug */,
+				B4EE5F1C1433ED3B00BBC6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4EE5F1D1433ED3B00BBC6AB /* Build configuration list for PBXNativeTarget "Button EE3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EE5F1E1433ED3B00BBC6AB /* Debug */,
+				B4EE5F1F1433ED3B00BBC6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B4EE5F201433ED3C00BBC6AB /* Build configuration list for PBXNativeTarget "Button EE3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EE5F211433ED3C00BBC6AB /* Debug */,
+				B4EE5F221433ED3C00BBC6AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4EE5EDC1433ED3B00BBC6AB /* Project object */;
+}
