@@ -23,6 +23,7 @@
 		B4EE5F161433ED3B00BBC6AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F141433ED3B00BBC6AB /* InfoPlist.strings */; };
 		B4EE5F181433ED3B00BBC6AB /* Button_EE3Tests.h in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F171433ED3B00BBC6AB /* Button_EE3Tests.h */; };
 		B4EE5F1A1433ED3B00BBC6AB /* Button_EE3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EE5F191433ED3B00BBC6AB /* Button_EE3Tests.m */; };
+		B4EE5F251433EEB900BBC6AB /* Lion icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B4EE5F241433EEB900BBC6AB /* Lion icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,23 @@
 		B4EE5EE91433ED3B00BBC6AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B4EE5EEB1433ED3B00BBC6AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B4EE5EED1433ED3B00BBC6AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B4EE5EF11433ED3B00BBC6AB /* Button EE3-Info.plist */ = {isa = PBXFileReference; path = "Button EE3-Info.plist"; sourceTree = "<group>"; };
+		B4EE5EF11433ED3B00BBC6AB /* Button EE3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Button EE3-Info.plist"; sourceTree = "<group>"; };
 		B4EE5EF31433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4EE5EF51433ED3B00BBC6AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B4EE5EF71433ED3B00BBC6AB /* Button EE3-Prefix.pch */ = {isa = PBXFileReference; path = "Button EE3-Prefix.pch"; sourceTree = "<group>"; };
-		B4EE5EF81433ED3B00BBC6AB /* Button_EE3AppDelegate.h */ = {isa = PBXFileReference; path = Button_EE3AppDelegate.h; sourceTree = "<group>"; };
+		B4EE5EF71433ED3B00BBC6AB /* Button EE3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Button EE3-Prefix.pch"; sourceTree = "<group>"; };
+		B4EE5EF81433ED3B00BBC6AB /* Button_EE3AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_EE3AppDelegate.h; sourceTree = "<group>"; };
 		B4EE5EF91433ED3B00BBC6AB /* Button_EE3AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3AppDelegate.m; sourceTree = "<group>"; };
 		B4EE5EFC1433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B4EE5EFE1433ED3B00BBC6AB /* Button_EE3ViewController.h */ = {isa = PBXFileReference; path = Button_EE3ViewController.h; sourceTree = "<group>"; };
+		B4EE5EFE1433ED3B00BBC6AB /* Button_EE3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_EE3ViewController.h; sourceTree = "<group>"; };
 		B4EE5EFF1433ED3B00BBC6AB /* Button_EE3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3ViewController.m; sourceTree = "<group>"; };
 		B4EE5F021433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Button_EE3ViewController.xib; sourceTree = "<group>"; };
 		B4EE5F091433ED3B00BBC6AB /* Button EE3Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button EE3Tests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4EE5F0A1433ED3B00BBC6AB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		B4EE5F131433ED3B00BBC6AB /* Button EE3Tests-Info.plist */ = {isa = PBXFileReference; path = "Button EE3Tests-Info.plist"; sourceTree = "<group>"; };
+		B4EE5F131433ED3B00BBC6AB /* Button EE3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Button EE3Tests-Info.plist"; sourceTree = "<group>"; };
 		B4EE5F151433ED3B00BBC6AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B4EE5F171433ED3B00BBC6AB /* Button_EE3Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Button_EE3Tests.h; sourceTree = "<group>"; };
 		B4EE5F191433ED3B00BBC6AB /* Button_EE3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Button_EE3Tests.m; sourceTree = "<group>"; };
+		B4EE5F241433EEB900BBC6AB /* Lion icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Lion icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		B4EE5EDA1433ED3B00BBC6AB = {
 			isa = PBXGroup;
 			children = (
+				B4EE5F231433EE9700BBC6AB /* Resorces */,
 				B4EE5EEF1433ED3B00BBC6AB /* Button EE3 */,
 				B4EE5F111433ED3B00BBC6AB /* Button EE3Tests */,
 				B4EE5EE81433ED3B00BBC6AB /* Frameworks */,
@@ -155,6 +158,14 @@
 				B4EE5F141433ED3B00BBC6AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4EE5F231433EE9700BBC6AB /* Resorces */ = {
+			isa = PBXGroup;
+			children = (
+				B4EE5F241433EEB900BBC6AB /* Lion icon.png */,
+			);
+			name = Resorces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +241,7 @@
 				B4EE5EF41433ED3B00BBC6AB /* InfoPlist.strings in Resources */,
 				B4EE5EFD1433ED3B00BBC6AB /* MainWindow.xib in Resources */,
 				B4EE5F031433ED3B00BBC6AB /* Button_EE3ViewController.xib in Resources */,
+				B4EE5F251433EEB900BBC6AB /* Lion icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
