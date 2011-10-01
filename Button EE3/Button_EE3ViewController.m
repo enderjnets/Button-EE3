@@ -65,7 +65,8 @@
     if (settings) {
         NSString *msgTitle = [[NSString alloc]initWithFormat:@"Gran Maestra %@ ",name];
         NSString *cancelMsg = [[NSString alloc]initWithFormat:@"%@ es tu numero",number];
-        UIActionSheet *acctionSheet = [[UIActionSheet alloc]initWithTitle:msgTitle delegate:nil cancelButtonTitle:cancelMsg destructiveButtonTitle:@"No lo es!!" otherButtonTitles:nil ];
+        UIActionSheet *acctionSheet = [[UIActionSheet alloc]initWithTitle:msgTitle 
+                                                                 delegate:nil cancelButtonTitle:cancelMsg destructiveButtonTitle:@"No lo es!!" otherButtonTitles:nil ];
         [acctionSheet showInView: self.view];
         [acctionSheet release];
         [msgTitle release];
@@ -105,16 +106,16 @@
 }
 
 -(IBAction)Button3Pressed:(id)sender{
+    UILabel *labelEdad = (UILabel *)sliderText.text;
+    NSString *edad =[[NSString alloc]initWithFormat:@"Si sigues asi viviras %@ años mas",labelEdad ]; 
     UISwitch *selectedDeportista = (UISwitch *)rightSwitch;
     BOOL settings = selectedDeportista.isOn;
     if (settings) {
-        UIAlertView *alertDepOn = [[UIAlertView alloc]initWithTitle:@"Felictaciones" 
-                                                            message:@"Sigue asi viviras mucho tiempo" delegate:nil cancelButtonTitle:@"Gracias !" otherButtonTitles:nil];
+        UIAlertView *alertDepOn = [[UIAlertView alloc]initWithTitle:@"Felictaciones" message:edad delegate:nil cancelButtonTitle:@"Gracias !" otherButtonTitles:nil];
         [alertDepOn show];
         [alertDepOn release];
     } else {
-        UIAlertView *alertDepOff = [[UIAlertView alloc]initWithTitle:@"Advertencia"
-                                                             message:@"Cambia tu estilo de vida , Haz Mas deporte.. Tu Puedes " delegate:nil cancelButtonTitle:@"Si puedo Cambiar" otherButtonTitles:@"No Puedo", nil];
+        UIAlertView *alertDepOff = [[UIAlertView alloc]initWithTitle:@"Advertencia"message:@"Cambia tu estilo de vida , Haz Mas deporte.. Tu Puedes " delegate:nil cancelButtonTitle:@"Si puedo Cambiar" otherButtonTitles:@"No Puedo", nil];
         [alertDepOff show];
         [alertDepOff release];
         
