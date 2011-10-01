@@ -66,7 +66,7 @@
         NSString *msgTitle = [[NSString alloc]initWithFormat:@"Gran Maestra %@ ",name];
         NSString *cancelMsg = [[NSString alloc]initWithFormat:@"%@ es tu numero",number];
         UIActionSheet *acctionSheet = [[UIActionSheet alloc]initWithTitle:msgTitle 
-                                                                 delegate:nil cancelButtonTitle:cancelMsg destructiveButtonTitle:@"No lo es!!" otherButtonTitles:nil ];
+        delegate:nil cancelButtonTitle:cancelMsg destructiveButtonTitle:@"No lo es!!" otherButtonTitles:nil ];
         [acctionSheet showInView: self.view];
         [acctionSheet release];
         [msgTitle release];
