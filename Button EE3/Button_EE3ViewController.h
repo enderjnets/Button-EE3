@@ -25,7 +25,7 @@
 @property(nonatomic,retain) IBOutlet UITextField *nameField;
 @property(nonatomic,retain) IBOutlet UITextField *numberField;
 @property(nonatomic,retain) IBOutlet UILabel *sliderText;
-@property(nonatomic,retain, getter = isOn) IBOutlet UISwitch *leftSwitch;
+@property(nonatomic,retain) IBOutlet UISwitch *leftSwitch;
 @property(nonatomic,retain) IBOutlet UISwitch *rightSwitch;
 @property(nonatomic,retain) IBOutlet UIButton *pressMeButton;
 @property(nonatomic,retain) IBOutlet UIButton *resultButton;
